@@ -1,6 +1,6 @@
 # Shortcut Manager
 
-A powerful Chrome Extension designed to enhance web accessibility, particularly for **visually impaired users** and those who prefer keyboard navigation. It allows you to automate web interactions using custom keyboard shortcuts, significantly reducing the reliance on mouse navigation and visual searching. Define actions like clicking buttons, scrolling to elements, or typing text, and trigger them with your preferred key combinations.
+A powerful Chrome Extension designed to enhance web accessibility, particularly for visually impaired users and those who prefer keyboard navigation. It allows you to automate web interactions using custom keyboard shortcuts, significantly reducing the reliance on mouse navigation and visual searching. Define actions like clicking buttons, scrolling to elements, or typing text, and trigger them with your preferred key combinations.
 
 ## Accessibility Focus
 
