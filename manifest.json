@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "extension 1",
+  "version": "1.0",
+  "description": "Manage custom shortcuts and button actions",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "shortcut-1": {
+      "suggested_key": {
+        "default": "Alt+Shift+1"
+      },
+      "description": "Execute Shortcut 1"
+    },
+    "shortcut-2": {
+      "suggested_key": {
+        "default": "Alt+Shift+2"
+      },
+      "description": "Execute Shortcut 2"
+    },
+    "shortcut-3": {
+      "suggested_key": {
+        "default": "Alt+Shift+3"
+      },
+      "description": "Execute Shortcut 3"
+    },
+    "open-new-tab": {
+      "suggested_key": {
+        "default": "Alt+Shift+T"
+      },
+      "description": "Open a new tab"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
